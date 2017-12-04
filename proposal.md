@@ -6,12 +6,12 @@ Jumping Corgi is a minigame where user will control 2 Corgis, trying to grab "en
 
 Game play is fairly simple:
 
-  * Game starts with 1 Corgi on the top standing bar, while the other one staying down at the seasaw.
+  * Game starts with 1 Corgi on the top standing bar, while the other one staying down at the seesaw.
   * User will control 1 Corgi at a time, using mouse movement.
   * User can toggle between Corgis, using defined key (tab?)
   * Energy items will appear randomly from either side of the screen, moving horizontally and disappear into the other side.
-  * When ready to grab energy items, user will perform a click (or press spacebar) and the top Corgi will jump down. Landing on the seasaw will result in the other Corgi jumping back up, landing on the top standing bar.
-  * Note: when the top Corgi lands on the seasaw, user will gain instant control over the other (jumping-up) Corgi.
+  * When ready to grab energy items, user will perform a click (or press spacebar) and the top Corgi will jump down. Landing on the seesaw will result in the other Corgi jumping back up, landing on the top standing bar.
+  * Note: when the top Corgi lands on the seesaw, user will gain instant control over the other (jumping-up) Corgi.
   * Any energy item grabbed during the jumping up and down process, will contribute to Corgis team health bar, as well as the overall score.
   * The health bar will deplete over time.
   * Bonus items (optional): full health bar energy, double speed, etc.
@@ -31,10 +31,10 @@ This project will be implemented with the following technologies:
 Beside webpack entry file, there will be other main script files involved:
 
   * `canvas.js`: handle drawing of main canvas, background image, etc.
-  * `layout.js`: handle populating items on canvas, including seasaw, top standing bar, health bar, and score.
+  * `layout.js`: handle populating items on canvas, including seesaw, top standing bar, health bar, and score.
   * `corgi.js`: handle sprite animation and mouse movements of both Corgis.
   * `items.js`: handle different items and movements accross the canvas.
-  * `collision.js`: handle the collison between Corgi and seasaw, and Corgi and items.
+  * `collision.js`: handle the collison between Corgi and seesaw, and Corgi and items.
   * `game.js`: handle game play.
   * `audio.js`: handle background music and collision sound.
 
@@ -54,7 +54,7 @@ Beside webpack entry file, there will be other main script files involved:
 ## Day 2:
 
   * Create fake Corgi. Handle Corgi's movement based on mouse movement.
-  * Handle collision between Corgi and seasaw, and Corgi and items.
+  * Handle collision between Corgi and seesaw, and Corgi and items.
 
 ## Day 3:
 
