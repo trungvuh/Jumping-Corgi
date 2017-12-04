@@ -1,18 +1,18 @@
-# Jumping Corgi
+# Jumping Shiba
 
 ## Background and Overview:
 
-Jumping Corgi is a minigame where user will control 2 Corgis, trying to grab "energy" items (i.e. bones, cakes, sausages, etc.) to keep their health bar from depreciated.
+Jumping Shiba is a minigame where user will control 2 Shibas, trying to grab "energy" items (i.e. bones, cakes, sausages, etc.) to keep their health bar from depreciated.
 
 Game play is fairly simple:
 
-  * Game starts with 1 Corgi on the top standing bar, while the other one staying down at the seesaw.
-  * User will control 1 Corgi at a time, using mouse movement.
-  * User can toggle between Corgis, using defined key (tab?)
+  * Game starts with 1 Shiba on the top standing bar, while the other one staying down at the seesaw.
+  * User will control 1 Shiba at a time, using mouse movement.
+  * User can toggle between Shibas, using defined key (tab?)
   * Energy items will appear randomly from either side of the screen, moving horizontally and disappear into the other side.
-  * When ready to grab energy items, user will perform a click (or press spacebar) and the top Corgi will jump down. Landing on the seesaw will result in the other Corgi jumping back up, landing on the top standing bar.
-  * Note: when the top Corgi lands on the seesaw, user will gain instant control over the other (jumping-up) Corgi.
-  * Any energy item grabbed during the jumping up and down process, will contribute to Corgis team health bar, as well as the overall score.
+  * When ready to grab energy items, user will perform a click (or press spacebar) and the top Shiba will jump down. Landing on the seesaw will result in the other Shiba jumping back up, landing on the top standing bar.
+  * Note: when the top Shiba lands on the seesaw, user will gain instant control over the other (jumping-up) Shiba.
+  * Any energy item grabbed during the jumping up and down process, will contribute to Shibas team health bar, as well as the overall score.
   * The health bar will deplete over time.
   * Bonus items (optional): full health bar energy, double speed, etc.
 
@@ -32,9 +32,9 @@ Beside webpack entry file, there will be other main script files involved:
 
   * `canvas.js`: handle drawing of main canvas, background image, etc.
   * `layout.js`: handle populating items on canvas, including seesaw, top standing bar, health bar, and score.
-  * `corgi.js`: handle sprite animation and mouse movements of both Corgis.
+  * `shiba.js`: handle sprite animation and mouse movements of both Shibas.
   * `items.js`: handle different items and movements accross the canvas.
-  * `collision.js`: handle the collison between Corgi and seesaw, and Corgi and items.
+  * `collision.js`: handle the collison between Shiba and seesaw, and Shiba and items.
   * `game.js`: handle game play.
   * `audio.js`: handle background music and collision sound.
 
@@ -43,7 +43,7 @@ Beside webpack entry file, there will be other main script files involved:
 ### Weekend:
 
   * Initial setup. Go over Asteroid and Drunken Circle projects in class.
-  * Basic setup for canvas (background), sprite-sheet for Corgi and items.
+  * Basic setup for canvas (background), sprite-sheet for Shiba and items.
 
 ## Day 1:
 
@@ -53,13 +53,13 @@ Beside webpack entry file, there will be other main script files involved:
 
 ## Day 2:
 
-  * Create fake Corgi. Handle Corgi's movement based on mouse movement.
-  * Handle collision between Corgi and seesaw, and Corgi and items.
+  * Create fake Shiba. Handle Shiba's movement based on mouse movement.
+  * Handle collision between Shiba and seesaw, and Shiba and items.
 
 ## Day 3:
 
   * Handle updating score and health bar.
-  * Animation for Corgi from sprite sheet.
+  * Animation for Shiba from sprite sheet.
 
 ## Day 4:
 
