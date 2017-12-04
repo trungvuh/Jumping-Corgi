@@ -18,7 +18,7 @@ Game play is fairly simple:
 
 ## Wireframe:
 
-  ![](https://github.com/trungvuh/Jumping-Corgi/raw/master/assets/Jumping%20Corgi%20Wireframe.png)
+  ![](https://github.com/trungvuh/Jumping-Corgi/raw/master/assets/Jumping%20Corgi%20Wireframe%20(1).png)
 
 ## Architecture and Technologies:
 
