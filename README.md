@@ -14,4 +14,4 @@ Game play is fairly simple:
   * Note: when the top Corgi lands on the seasaw, user will gain instant control over the other (jumping-up) Corgi.
   * Any energy item grabbed during the jumping up and down process, will contribute to Corgis team health bar, as well as the overall score.
   * The health bar will deplete over time.
-  * Bonus items (optional): full health bar energy, double speed, etc.
+  * Bonus items (optional): full health bar energy, double speed, etc. 
